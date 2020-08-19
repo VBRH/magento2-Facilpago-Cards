@@ -1,0 +1,23 @@
+{
+    "name": "facilpago/cards",
+    "description": "Payment gateway plugin by PagoFacil.net for Magento 2",
+    "require": {
+        "php": "~7.3",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "psr/http-client": "1.0.*",
+        "psr/http-message": "1.0.*"
+    },
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Facilpago\\Cards\\": ""
+        }
+    }
+}
+

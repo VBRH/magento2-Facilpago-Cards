@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <payment>
+            <facilpago_cards>
+                <title>pagofacil card</title>
+                <model>Facilpago\Cards\Model\Payment</model>
+                <active>1</active>
+                <cctypes>AE,VI,MC</cctypes>
+                <payment_action>authorize_capture</payment_action>
+            </facilpago_cards>
+        </payment>
+    </default>
+</config>
